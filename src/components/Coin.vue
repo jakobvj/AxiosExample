@@ -52,6 +52,9 @@ data: function () {
         this.errored = true
       })
       .finally(() => this.loading = false)
+  },
+  methods{
+      
   }
 }
 </script>
